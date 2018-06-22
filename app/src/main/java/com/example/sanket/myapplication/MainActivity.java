@@ -22,4 +22,11 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("Extra Message",message);
         startActivity(intent);
     }
+
+    private void TestDemo()
+    {
+        int i= 1+1;
+        int ii= 2+2;
+        int iii = i+ii;
+    }
 }
